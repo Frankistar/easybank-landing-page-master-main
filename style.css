@@ -198,7 +198,7 @@ footer {
 footer .row .left{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 footer .row .left .socials {
@@ -217,9 +217,9 @@ footer .row .center{
 
 footer .row .right{
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
   flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;  
 }
 
 footer .row .center ul li {
